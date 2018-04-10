@@ -1,0 +1,9 @@
+class Octree:
+	state isNode = default: false
+	state center
+
+	function addPoint:
+		if numPoints > maxPoints:
+			convert to node & add points to children
+		else:
+			
